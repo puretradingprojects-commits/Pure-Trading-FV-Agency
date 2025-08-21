@@ -95,6 +95,7 @@ Fingerprint Verifications
 <option value="criminal">Criminal Record Check</option>
 <option value="corporate">Corporate Employee Verification</option>
 <option value="individual">Background Check for Individual</option>
+        
 <button type="submit">Send Booking</button>
 </form>
 <section id="about" class="about">
