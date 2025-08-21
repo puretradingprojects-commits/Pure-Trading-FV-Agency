@@ -73,7 +73,7 @@ Fingerprint Verifications
         </select>
         <input type="date" required>
         <textarea placeholder="Additional Notes"></textarea>
-        <button type="submit">Submit Request</button>
+        <button type="submit">Submit Request</button>= send to info@puretrading.co.za/
     </form>
 </section>
 
