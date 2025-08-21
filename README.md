@@ -62,20 +62,29 @@ Fingerprint Verifications
 <section id="booking" class="booking">
     <h2>Book Your Fingerprint Verification</h2>
     <form>
-        <input type="text" placeholder="Full Name" required>
-        <input type="email" placeholder="Email Address" required>
-        <input type="tel" placeholder="Phone Number" required>
-        <select required>
-            <option value="">Select Verification Type</option>
-            <option value="criminal">Criminal Record Check</option>
-            <option value="corporate">Corporate Employee Verification</option>
-            <option value="individual">Background Check for Individual</option>
-        </select>
-        <input type="date" required>
-        <textarea placeholder="Additional Notes"></textarea>
-        <button type="submit">Submit Request</button>
-    </form>
-</section>
+    <form action="https://formspree.io/f/movlgqyv" method="POST">
+  <label>
+    Full Name:
+    <input type="text" name="name" required>
+  </label>
+  <br><br>
+  <label>
+    Email Address:
+    <input type="email" name="email" required>
+  </label>
+  <br><br>
+  <label>
+    Phone Number:
+    <input type="tel" name="phone" required>
+  </label>
+  <br><br>
+  <label>
+    Booking Details:
+    <textarea name="message" required></textarea>
+  </label>
+  <br><br>
+  <button type="submit">Submit Booking</button>
+</form>
 
 <section id="about" class="about">
     <h2>About Us</h2>
