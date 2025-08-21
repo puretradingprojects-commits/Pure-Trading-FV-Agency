@@ -79,7 +79,6 @@ Fingerprint Verifications
   </label>
   <br><br>
   <label>
-      <option value="">Select Verification Type</option>
 <form action="https://formspree.io/f/abcd1234" method="POST">
   <label>
     Name:
