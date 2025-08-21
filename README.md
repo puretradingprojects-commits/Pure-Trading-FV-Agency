@@ -91,7 +91,8 @@ Fingerprint Verifications
   </label>
   <br><br>
   <label>
-    <option value="">Select Verification Type</option>
+    <select required>
+<option value="">Select Verification Type</option>
 <option value="criminal">Criminal Record Check</option>
 <option value="corporate">Corporate Employee Verification</option>
 <option value="individual">Background Check for Individual</option>
