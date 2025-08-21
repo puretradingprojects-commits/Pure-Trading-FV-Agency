@@ -56,11 +56,6 @@ footer a { color: white; text-decoration: none; margin: 0 5px; }
 <p>Fingerprint verification for new hires and compliance requirements.</p>
 </div>
 <div class="service-item">
-<h3>Background Checks for Individuals</h3>
-</html>
-</section>
-
-
 <section id="booking" class="booking">
 <h2>Book Your Fingerprint Verification</h2>
 <form>
