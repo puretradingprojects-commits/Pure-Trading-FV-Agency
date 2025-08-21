@@ -79,14 +79,12 @@ Fingerprint Verifications
   </label>
   <br><br>
   <label>
-
-    <option value="">Select Verification Type</option>
+<option value="">Select Verification Type</option>
 <option value="criminal">Criminal Record Check</option>
 <option value="corporate">Corporate Employee Verification</option>
 <option value="individual">Background Check for Individual</option>
   <button type="submit">Submit Booking</button>
 </form>
-
 <section id="about" class="about">
     <h2>About Us</h2>
     <p>Pure Trading Projects provides secure and efficient fingerprint verification services across Mpumalanga. Our mission is to ensure fast and confidential verification for individuals and businesses.</p>
