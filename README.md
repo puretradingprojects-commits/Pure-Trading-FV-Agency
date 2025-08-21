@@ -80,11 +80,23 @@ Fingerprint Verifications
   <br><br>
   <label>
       <option value="">Select Verification Type</option>
-
-<option value="criminal">Criminal Record Check</option>
-<option value="corporate">Corporate Employee Verification</option>
-<option value="individual">Background Check for Individual</option>
-  <button type="submit">Submit Booking</button>
+<form action="https://formspree.io/f/abcd1234" method="POST">
+  <label>
+    Name:
+    <input type="text" name="name" required>
+  </label>
+  <br><br>
+  <label>
+    Email:
+    <input type="email" name="email" required>
+  </label>
+  <br><br>
+  <label>
+    Booking Details:
+    <textarea name="message" required></textarea>
+  </label>
+  <br><br>
+  <button type="submit">Send Booking</button>
 </form>
 <section id="about" class="about">
     <h2>About Us</h2>
