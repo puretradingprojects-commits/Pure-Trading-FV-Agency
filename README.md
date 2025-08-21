@@ -1,6 +1,5 @@
 # Pure-Trading-FV-Agency
 Fingerprint Verifications
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -96,7 +95,7 @@ Fingerprint Verifications
 <option value="criminal">Criminal Record Check</option>
 <option value="corporate">Corporate Employee Verification</option>
 <option value="individual">Background Check for Individual</option>
-  <button type="submit">Send Booking</button>
+<button type="submit">Send Booking</button>
 </form>
 <section id="about" class="about">
     <h2>About Us</h2>
