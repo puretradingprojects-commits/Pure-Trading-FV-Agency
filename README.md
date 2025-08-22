@@ -25,7 +25,6 @@ footer a { color: white; text-decoration: none; margin: 0 5px; }
 </head>
 <body>
 
-
 <header>
 <h1>Pure Trading Projects</h1>
 <nav>
@@ -37,13 +36,11 @@ footer a { color: white; text-decoration: none; margin: 0 5px; }
 </nav>
 </header>
 
-
 <section id="home" class="hero">
 <h1>Reliable Fingerprint Verification Services</h1>
 <p>Quick, secure, and professional verification for individuals and businesses.</p>
 <a href="#booking" class="btn">Book Verification Now</a>
 </section>
-
 
 <section id="services" class="services">
 <h2>Our Services</h2>
@@ -55,31 +52,30 @@ footer a { color: white; text-decoration: none; margin: 0 5px; }
 <h3>Corporate Employee Verification</h3>
 <p>Fingerprint verification for new hires and compliance requirements.</p>
 </div>
-<div class="service-item">
-<section id="booking" class="booking">
-<h2>Book Your Fingerprint Verification</h2>
-<form>
-<input type="text" placeholder="Full Name" required>
-<input type="email" placeholder="Email Address" required>
-<input type="tel" placeholder="Phone Number" required>
-<select required>
-<option value="">Select Verification Type</option>
-<option value="criminal">Criminal Record Check</option>
-<option value="corporate">Corporate Employee Verification</option>
-<option value="individual">Background Check for Individual</option>
-</select>
-<input type="date" required>
-<textarea placeholder="Additional Notes"></textarea>
-<button type="submit">Submit Request</button>
-</form>
 </section>
 
+<section id="booking" class="booking">
+<h2>Book Your Fingerprint Verification</h2>
+<form action="https://formspree.io/f/movlgqyv" method="POST">
+  <input type="text" name="name" placeholder="Full Name" required>
+  <input type="email" name="email" placeholder="Email Address" required>
+  <input type="tel" name="phone" placeholder="Phone Number" required>
+  <select name="verification_type" required>
+    <option value="">Select Verification Type</option>
+    <option value="criminal">Criminal Record Check</option>
+    <option value="corporate">Corporate Employee Verification</option>
+    <option value="individual">Background Check for Individual</option>
+  </select>
+  <input type="date" name="date" required>
+  <textarea name="message" placeholder="Additional Notes"></textarea>
+  <button type="submit">Submit Request</button>
+</form>
+</section>
 
 <section id="about" class="about">
 <h2>About Us</h2>
 <p>Pure Trading Projects provides secure and efficient fingerprint verification services across Mpumalanga. Our mission is to ensure fast and confidential verification for individuals and businesses.</p>
 </section>
-
 
 <section id="contact" class="contact">
 <h2>Contact Us</h2>
@@ -88,11 +84,10 @@ footer a { color: white; text-decoration: none; margin: 0 5px; }
 <p><a href="https://goo.gl/maps/your-google-map-link" target="_blank">View on Google Maps</a></p>
 </section>
 
-
 <footer>
 <p>&copy; 2025 Pure Trading Projects | <a href="#home">Home</a> | <a href="#services">Services</a> | <a href="#contact">Contact</a></p>
 </footer>
 
-
 </body>
 </html>
+
